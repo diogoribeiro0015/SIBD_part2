@@ -1,0 +1,20 @@
+-- A. All boats that have been reserved at least once
+boat
+"(FRA1,1980,FRA,Baguette,87.00,MMSI2,3,FRA)"
+"(NLD1,2010,NLD,""Red Bull"",100.00,MMSI3,5,NLD)"
+"(PRT1,2020,PRT,Mercedes,150.00,MMSI1,1,PRT)"
+"(PRT2,2000,PRT,""Mário Jorge"",20.00,,6,PRT)"
+
+-- B. All sailors that have reserved boats registered in the country 'Portugal'
+sailor
+"(2,PRT,""Diogo Ribeiro"")"
+"(4,PRT,""Duarte Honrado"")"
+
+-- C. All reservations longer than 5 days
+reservation
+"(2021-12-29,2022-01-15,FRA1,FRA,2,PRT)"
+"(2023-05-07,2023-11-23,PRT1,PRT,2,PRT)"
+
+-- D. Name and CNI of all boats registered in 'South Africa' whose owner name ends with 'Rendeiro'
+boat_cni,boat_name
+ZAF1,Alpha Tauri
